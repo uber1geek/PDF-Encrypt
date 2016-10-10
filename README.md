@@ -3,6 +3,16 @@ Encrypts a directory containing PDF files with 128 bit AES.
 
 
 
+
+Prerequisites
+------------
+
+PyPDF2
+~~~~~~~~~~~~~~~~~~~
+
+
+    pip install pypdf2
+
 Usage
 -----
 
