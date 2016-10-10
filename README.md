@@ -7,7 +7,7 @@ Encrypts a directory containing PDF files with 128 bit AES.
 Requirements
 ------------
 
-# PyPDF2
+PyPDF2
 
 
     pip install pypdf2
