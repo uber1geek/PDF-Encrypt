@@ -3,6 +3,7 @@ import os
 import glob
 import argparse
 
+os.chdir('/Users/Pathfinder/PDF')   #Specify the directory containing PDF files.
 
 def set_password(input_pdf, user_pass, owner_pass):
     """
@@ -39,7 +40,6 @@ def main():
                         help='Owner Password')
     args = parser.parse_args()
 
-    os.chdir('/Users/Pathfinder/PDF')   #Specify the directory containing PDF files.
     for file in glob.glob('*.pdf'):
         set_password(file, args.user_password, args.owner_password)
 
